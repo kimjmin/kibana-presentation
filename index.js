@@ -6,7 +6,7 @@ export default function (kibana) {
 
     uiExports: {
       app: {
-        title: 'Kibana Presentation',
+        title: 'Presentation',
         description: 'Kibana presentation plugin using reveal.js',
         main: 'plugins/kibana_presentation/app'
       },
