@@ -19,7 +19,7 @@ uiRoutes
   template,
   resolve: {
     currentTime($http) {
-      return $http.get('../api/kibana_presentation/example').then(function (resp) {
+      return $http.get('../api/kibana-presentation/example').then(function (resp) {
         return resp.data.time;
       });
     }
@@ -27,7 +27,7 @@ uiRoutes
 });
 
 uiModules
-.get('app/kibana_presentation', [])
+.get('app/kibana-presentation', [])
 .controller('kibanaPresentationHelloWorld', function ($scope, $route, $interval) {
   $scope.title = 'Kibana Presentation';
   $scope.description = 'Kibana presentation plugin using reveal.js';

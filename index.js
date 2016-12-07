@@ -8,10 +8,10 @@ export default function (kibana) {
       app: {
         title: 'Presentation',
         description: 'Kibana presentation plugin using reveal.js',
-        main: 'plugins/kibana_presentation/app'
+        main: 'plugins/kibana-presentation/app'
       },
       hacks: [
-        'plugins/kibana_presentation/hack'
+        'plugins/kibana-presentation/hack'
       ]
     },
 

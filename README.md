@@ -1,4 +1,4 @@
-# kibana_presentation
+# kibana-presentation
 
 > Kibana presentation plugin using reveal.js
 
