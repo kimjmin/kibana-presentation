@@ -1,6 +1,6 @@
 {
   "name": "kibana-presentation",
-  "version": "kibana",
+  "version": "6.0.0-alpha1",
   "description": "Kibana presentation plugin using reveal.js",
   "main": "index.js",
   "scripts": {
