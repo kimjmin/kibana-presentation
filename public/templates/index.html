@@ -1,4 +1,24 @@
-<div class="container" ng-controller="kibanaPresentationHelloWorld">
+<div ng-controller="kibanaPresentationHelloWorld">
+  <kbn-top-nav name="kibanaPdf" config="topNavMenu">
+    <div class="localNav">
+      <div class="localNavRow">
+        <div class="localBreadcrumbs">
+            Kibana Presentation
+        </div>
+      </div>
+      <div class="localNavRow localNavRow--secondary">
+        <div class="localTabs">
+          <a href="#" class="localTab">Corporate Deck</a>
+          <a href="#" class="localTab">New Features in 5.0</a>
+          <a href="#" class="localTab localTab-isSelected">Prelert (Machine Learning)</a>
+        </div>
+      </div>
+    </div>
+  </kbn-top-nav>
+<!--
+  <iframe src="http://docs.google.com/gview?url=http://cdn2.hubspot.net/hubfs/208516/Prelert_Elastic_London_User_Group_Meetup_19May2016.pdf&embedded=true" style="width:1024px; height:740px;" frameborder="0"></iframe>
+  <embed src="http://cdn2.hubspot.net/hubfs/208516/Prelert_Elastic_London_User_Group_Meetup_19May2016.pdf" width="800" height="600" type='application/pdf'>
+
   <div class="row">
     <div class="col-12-sm">
       <div class="well">
@@ -10,4 +30,6 @@
       <p>The current time is {{ currentTime }}</p>
     </div>
   </div>
+-->
+
 </div>
